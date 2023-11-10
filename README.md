@@ -1,1 +1,3 @@
 # Bellman-Ford-algorithm
+
+The code defines functions to solve a problem involving the optimal traversal of a graph by bunnies, constrained by time limits. It utilizes the Bellman-Ford algorithm to find the shortest paths from a source node to all other nodes in the graph. The code also checks for the presence of a negative cycle, indicating an undefined shortest path scenario. The solution function then iterates through all permutations of bunnies, calculating the total time for each permutation and returning the path with a time within the specified limit. If a negative cycle is detected, the function returns a range of bunny indices. Overall, the code aims to determine the optimal path for bunnies, accounting for time constraints and graph characteristics.
